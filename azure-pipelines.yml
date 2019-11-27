@@ -23,4 +23,4 @@ steps:
 
 - script: |
     python TestPackage/Scripts/test_SalesOrderMultiLine.py
-  displayName: 'pytest1'
+  displayName: 'pytestMultiLine'
