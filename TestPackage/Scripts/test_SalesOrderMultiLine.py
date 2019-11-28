@@ -19,7 +19,7 @@ from TestPackage.PageObject.Pages.AllSalesOrdersPage import AllSalesOrderPage
  
 class test_SalesOrderMultiLine(EnvironmentSetUp):
     
-    @pytest.mark.parametrize("count",[1,2,3])
+
     def test_SalesOrderMultiLine(self):
         
         #Initializing TestCaseName, SheetName , driver
